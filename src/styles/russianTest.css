@@ -1,0 +1,169 @@
+.russianTestH1 {
+    font-weight: bold;
+}
+  
+.russianTestAdaptiveWidth {
+    width: 33%;
+}
+  
+.russianAdaptiveInput {
+    height: 2rem;
+    width: 14rem;
+}
+  
+.russianTestButton {
+    border: solid 2px #f97316;
+    border-radius: 0.3rem;
+    color: #f97316;
+  
+    padding: 0.5rem;
+}
+  
+.russianTestButton:hover {
+    border: solid 2px #fff;
+    color: #fff;
+  
+    background-color: #f97316;
+}
+  
+.russianTestAdaptiveFlex {
+    flex-direction: row;
+}
+
+@media (min-width: 376px) and (max-width: 575px) {
+    .russianTestAdaptiveWidth {
+        width: 66%;
+    }
+
+    .russianTestAdaptiveInput {
+        height: 1.5rem;
+        width: 8rem;
+    }
+
+    .russianTestAdaptiveFlex {
+        flex-direction: column;
+    }
+
+    .russianTestAdaptiveMargin {
+        margin-bottom: 0.5rem;
+    }
+}
+  
+@media (min-width: 576px) and (max-width: 767px) {
+    .russianTestAdaptiveWidth {
+        width: 50%;
+    }
+    
+    .russianTestAdaptiveInput {
+        height: 1.5rem;
+        width: 8rem;
+    }
+    
+    .russianTestAdaptiveFlex {
+        flex-direction: column;
+    }
+    
+    .russianTestAdaptiveMargin {
+        margin-bottom: 0.5rem;
+    }
+
+}
+  
+@media (min-width: 768px) and (max-width: 991px) {
+    .russianTestAdaptiveWidth {
+        width: 50%;
+    }
+
+    .russianTestAdaptiveInput {
+        height: 1.5rem;
+        width: 10rem;
+    }
+
+    .russianTestAdaptiveFlex {
+        flex-direction: row;
+    }
+
+    .russianTestAdaptiveMargin {
+        margin-right: 0.5rem;
+    }
+}
+  
+@media (min-width: 992px) and (max-width: 1199px) {
+    .russianTestAdaptiveWidth {
+        width: 50%;
+    }
+
+    .russianTestAdaptiveInput {
+        height: 1.7rem;
+        width: 10rem;
+    }
+
+    .russianTestAdaptiveFlex {
+        flex-direction: row;
+    }
+
+    .russianTestAdaptiveMargin {
+        margin-right: 0.5rem;
+    }
+}
+  
+@media (min-width: 1200px) and (max-width: 1499px) {
+    .russianTestAdaptiveWidth {
+        width: 40%;
+    }
+
+    .russianTestAdaptiveInput {
+        height: 2rem;
+        width: 12rem;
+    }
+
+    .russianTestAdaptiveFlex {
+        flex-direction: row;
+    }
+
+    .russianTestAdaptiveMargin {
+        margin-right: 0.5rem;
+    }
+}
+  
+@media (min-width: 1500px) and (max-width: 1919px) {
+    
+}
+  
+@media (min-width: 1920px) and (max-width: 2099px) {
+    .russianTestAdaptiveWidth {
+        width: 40%;
+    }
+
+    .russianTestAdaptiveInput {
+        height: 2.5rem;
+        width: 16rem;
+    }
+
+    .russianTestAdaptiveFlex {
+        flex-direction: row;
+    }
+
+    .russianTestAdaptiveMargin {
+        margin-right: 0.5rem;
+    }
+}
+  
+@media (min-width: 2100px) {
+    .russianTestAdaptiveWidth {
+        width: 33%;
+    }
+
+    .russianTestAdaptiveInput {
+        height: 2.5rem;
+        width: 16rem;
+    }
+
+    .russianTestAdaptiveFlex {
+        flex-direction: row;
+    }
+
+    .russianTestAdaptiveMargin {
+        margin-right: 0.5rem;
+    }
+}

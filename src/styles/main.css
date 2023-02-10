@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainText {
+  font-family: Arial;
+}
+
+.inputStyle {
+  background-color: transparent;
+  outline: none;
+
+  font-weight: normal;
+}
+
+.buttonStyle {
+  padding: 0.5rem;
+  border: solid 2px rgb(249 115 22);
+  border-radius: 0.5rem;
+  
+  background-color: #fff;
+
+  color: rgb(249 115 22);
+}
+
+.buttonStyle:hover {
+  color: #fff;
+
+  background-color: rgb(249 115 22);
+}
+
+.buttonStyle:active {  
+  transform: scale(0.95);
+}
+
+.arrowButton {
+  padding: 0.5rem;
+  border: solid 2px rgb(249 115 22);
+  border-radius: 100%;
+
+  background-color: #fff;
+
+  color: rgb(249 115 22);
+}
+
+.arrowButton:hover {
+  color: #fff;
+
+  background-color: rgb(249 115 22);
+}
+
+.arrowButton:active {
+  transform: scale(0.90);
+}
+
+.iconButton:hover {
+  color:rgb(249 115 22);
+}
+
+.iconButton:active {
+  transform: scale(0.8);
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  transition: 0.4s ease;
+}
+
+.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.8);
+  transition: 0.5s ease;
+}
+
+@media (min-width: 376px) and (max-width: 575px) {
+
+  .mainText {
+    font-size: 12px;
+  }
+
+  .navbarHeight {
+    height: 2rem;
+  }
+
+  .personFlex {
+    flex-direction: column;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  .mainText {
+    font-size: 12px;
+  }
+
+  .navbarHeight {
+    height: 2.5rem;
+  }
+
+  .personFlex {
+    flex-direction: column;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .mainText {
+    font-size: 14px;
+  }
+
+  .navbarHeight {
+    height: 2.5rem;
+  }
+
+  .personFlex {
+    flex-direction: row;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .mainText {
+    font-size: 16px;
+  }
+
+  .navbarHeight {
+    height: 3rem;
+  }
+
+  .personFlex {
+    flex-direction: row;
+  }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+  .mainText {
+    font-size: 18px;
+  }
+
+  .navbarHeight {
+    height: 3rem;
+  }
+
+  .personFlex {
+    flex-direction: row;
+  }
+
+}
+
+@media (min-width: 1500px) and (max-width: 1919px) {
+  .personFlex {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2099px) {
+
+  .mainText {
+    font-size: 20px;
+  }
+
+  .navbarHeight {
+    height: 3.5rem;
+  }
+
+  .personFlex {
+    flex-direction: row;
+  }
+
+}
+
+@media (min-width: 2100px) {
+
+  .mainText {
+    font-size: 22px;
+  }
+
+  .navbarHeight {
+    height: 3.5rem;
+  }
+
+  .personFlex {
+    flex-direction: row;
+  }
+}

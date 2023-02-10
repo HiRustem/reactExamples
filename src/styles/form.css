@@ -1,0 +1,234 @@
+.formLabel {
+    white-space: nowrap;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  
+    width: 50%;
+  }
+  
+  .formStaticFlex {
+    flex-direction: row;
+  }
+  
+  .formSelectAdaptiveFlex {
+    flex-direction: column;
+  }
+  
+  .formTextareaLabel {
+    white-space: normal;
+    font-weight: bold;
+
+    margin-bottom: 0.3rem;
+    margin-right: auto;
+    margin-left: auto;
+  
+    width: 50%;
+  }
+  
+  .formSelect {
+    background-color: transparent;
+    outline: none;
+  
+    font-weight: normal;
+  }
+  
+  .formTextarea {
+    font-weight: normal;
+  
+    outline: none;
+    resize: none;
+    overflow: hidden;
+  
+    padding: 0.5rem;
+    
+    border: 2px solid rgb(249 115 22);
+  }
+  
+  .formAdaptiveInputWidth {
+    width: 50%
+  }
+  
+  .formInputLeftMargin {
+    margin-left: 0.5rem;
+  }
+  
+  .inputBottomMargin {
+    margin-bottom: 0.5rem;
+  }
+  
+  .formCaption {
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .formTr {
+    border: 2px solid rgb(249 115 22);
+  }
+  
+  .formTd {
+    border-left: 2px solid rgb(249 115 22);
+    padding: 0.2rem;
+  }
+  
+  @media (min-width: 376px) and (max-width: 575px) {
+  
+    .formAdaptiveFlex {
+      flex-direction: column;
+    }
+  
+    .formStaticFlex {
+      flex-direction: column;
+    }
+  
+    .formLabel {
+      white-space: normal;
+    }
+  
+    .formAdaptiveInputWidth {
+      width: 85%
+    }
+
+    .formAdaptivePopupWidth {
+      width: 80%;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767px) {
+  
+    .formAdaptiveFlex {
+      flex-direction: column;
+    }
+  
+    .formStaticFlex {
+      flex-direction: row;
+    }
+  
+    .formLabel {
+      white-space: normal;
+    }
+  
+    .formPlaceholderText {
+      font-size: 14px;
+    }
+  
+    .formAdaptiveInputWidth {
+      width: 80%
+    }
+
+    .formAdaptivePopupWidth {
+      width: 80%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+  
+    .formAdaptiveFlex {
+      flex-direction: column;
+    }
+  
+    .formLabel {
+      white-space: normal;
+    }
+  
+    .formAdaptiveInputWidth {
+      width: 70%
+    }
+
+    .formAdaptivePopupWidth {
+      width: 66%;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+  
+    .formAdaptiveFlex {
+      flex-direction: column;
+    }
+  
+    .formAdaptiveInputWidth {
+      width: 60%
+    }
+
+    .formAdaptivePopupWidth {
+      width: 66%;
+    }
+  
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1499px) {
+
+    .formAdaptiveFlex {
+      flex-direction: column;
+    }
+  
+    .formSelectAdaptiveFlex {
+      flex-direction: column;
+    }
+
+    .formAdaptivePopupWidth {
+      width: 66%;
+    }
+  }
+  
+  @media (min-width: 1500px) and (max-width: 1919px) {
+
+    .mainText {
+      font-size: 18px;
+    }
+  
+    .navbarHeight {
+      height: 3rem;
+    }
+  
+    .formAdaptiveFlex {
+      flex-direction: row;
+    }
+  
+    .formSelectAdaptiveFlex {
+      flex-direction: row;
+    }
+
+    .formAdaptivePopupWidth {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 1920px) and (max-width: 2099px) {
+
+    .formAdaptiveFlex {
+      flex-direction: row;
+    }
+  
+    .formSelectAdaptiveFlex {
+      flex-direction: row;
+    }
+  
+    .formPlaceholderText {
+      font-size: 20px;
+    }
+
+    .formAdaptivePopupWidth {
+      width: 50%;
+    }
+  
+  }
+  
+  @media (min-width: 2100px) {
+  
+    .formAdaptiveFlex {
+      flex-direction: row;
+    }
+  
+    .formSelectAdaptiveFlex {
+      flex-direction: row;
+    }
+    
+    .formPlaceholderText {
+      font-size: 22px;
+    }
+
+    .formAdaptivePopupWidth {
+      width: 50%;
+    }
+  
+  }

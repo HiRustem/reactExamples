@@ -1,0 +1,101 @@
+@media (min-width: 376px) and (max-width: 575px) {
+  .managerTestSize {
+    width: 80%;
+    font-size: 10px;
+  }
+
+  .managerTestInputSize {
+    width: 80%;
+    margin-bottom: 4px;
+  }
+
+  .managerTestInputFlex {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .managerTestSize {
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .managerTestInputSize {
+    width: 80%;
+    margin-bottom: 4px;
+  }
+
+  .managerTestInputFlex {
+    flex-direction: column;
+    align-items: center;
+  }
+ }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .managerTestSize {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .managerTestInputSize {
+    width: 20%;
+    margin-bottom: 4px;
+  }
+
+  .managerTestInputFlex {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .managerTestSize {
+    width: 60%;
+    font-size: 16px;
+  }
+
+  .managerTestInputSize {
+    width: 20%;
+    margin-bottom: 4px;
+  }
+
+  .managerTestInputFlex {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .managerTestSize {
+    width: 50%;
+    font-size: 1rem;
+  }
+
+  .managerTestInputSize {
+    width: 20%;
+    margin-bottom: 4px;
+  }
+
+  .managerTestInputFlex {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1920px) {
+  .managerTestSize {
+    width: 50%;
+    font-size: 1.3rem;
+  }
+
+  .managerTestInputSize {
+    width: 20%;
+    margin-bottom: 4px;
+  }
+
+  .managerTestInputFlex {
+    flex-direction: row;
+    align-items: center;
+  }
+}
